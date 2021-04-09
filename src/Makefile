@@ -50,7 +50,7 @@ libs:
 	$(MAKE) -C libavfltctl
 	$(MAKE) -C libav
 
-libs_install:
+libs_install: libs
 	$(MAKE) -C librfsctl install
 	$(MAKE) -C libavfltctl install
 	$(MAKE) -C libav install
